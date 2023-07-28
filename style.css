@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+
+  --background-color: #000;
+  --header-color: #092D38;
+  --odd-row: #06161B;
+  --pair-row: #06181C;
+  --font-color: #E1E1E6;
+  --name-button-color: #ffffff;
+  --placeholder-color: #7C7C8A;
+  --remove-color: #F75A68;
+  --button-color: #065E7C;
+
+  --regular-font: 'Roboto', sans-serif;
+}
+
+body{
+  background: var(--background-color);
+}
+
+#app{
+  width: 1120px;
+  margin: 0 auto;
+}
